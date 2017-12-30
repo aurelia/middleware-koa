@@ -1,6 +1,4 @@
-
-import {RenderOptions, AppInitializationOptions} from 'aurelia-ssr-engine/dist/commonjs/interfaces';
-import {render} from 'aurelia-ssr-engine/dist/commonjs/aurelia-ssr-engine';
+import {RenderOptions, AppInitializationOptions, render} from 'aurelia-ssr-engine';
 import {Context} from 'koa';
 
 export let aureliaKoaMiddleware = (renderOptions: RenderOptions, initializationOptions: AppInitializationOptions) => {
